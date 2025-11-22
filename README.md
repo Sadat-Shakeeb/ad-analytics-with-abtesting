@@ -1,2 +1,133 @@
-# ad-analytics-with-abtesting
-Digital advertising analytics project with A/B testing, regression models, KPI evaluation, and visual insights comparing Facebook and Google Ad performance.
+<div align="center">
+
+# 📈 Advertisement Campaign with A/B Testing & Regression Analysis  
+
+</div>
+
+## 📘 Project Overview  
+This project evaluates and optimizes digital advertising performance using **A/B testing** and **regression analysis**.  
+It compares **Facebook** and **Google AdWords** in terms of clicks, conversions, and cost-efficiency, enabling **data-driven decisions** for strategic budget allocation.
+
+---
+
+## 📑 Table of Contents  
+- [📘 Project Overview](#-project-overview)  
+- [📂 Data Sources](#-data-sources)  
+- [🧹 Data Cleaning](#-data-cleaning)  
+- [🛠️ Data Modeling](#️-data-modeling)  
+- [📊 Statistical & Predictive Analysis](#-statistical--predictive-analysis)  
+- [📈 Data Visualization](#-data-visualization)  
+- [📌 Key Insights](#-key-insights)  
+- [💻 Tools & Technologies Used](#-tools--technologies-used)  
+- [📎 Outcome](#-outcome)  
+- [🚀 Future Scope](#-future-scope)  
+- [⭐ Contribute & Support](#-contribute--support)
+
+---
+
+## 📂 Data Sources  
+The dataset includes daily performance metrics for both ad platforms from **January 1 to December 31, 2019**:
+
+- **Date** – Daily campaign records  
+- **Ad Views** – Total impressions  
+- **Ad Clicks** – Number of clicks  
+- **Ad Conversions** – Successful conversions  
+- **Cost per Ad** – Daily spend  
+- **CTR (Click-Through Rate)** – Clicks ÷ Views  
+- **Conversion Rate** – Conversions ÷ Clicks  
+- **CPC (Cost per Click)** – Cost ÷ Clicks  
+
+---
+
+## 🧹 Data Cleaning  
+- Standardized date formats  
+- Converted numerical fields to proper data types  
+- Handled missing values and removed duplicates  
+- Ensured consistency across both platform data points  
+
+---
+
+## 🛠️ Data Modeling  
+Merged and structured datasets for comparative analysis:
+
+- Created **platform indicator columns**  
+- Calculated CTR, CPC, and Conversion Rate for both platforms  
+- Built additional KPIs and flags for modeling and visualization  
+
+---
+
+## 📊 Statistical & Predictive Analysis  
+
+### **A/B Testing**
+- Used **t-tests** to compare Facebook vs. Google AdWords on CTR, CPC, and conversion rate  
+
+### **Regression Modeling**
+- Developed a **linear regression model** to predict conversions from clicks  
+- Evaluated model accuracy using **R²** and **MSE**  
+
+### **Correlation & Cointegration**
+- Explored long-term relationships between ad spend and conversions using **correlation** and **cointegration tests**  
+
+---
+
+## 📈 Data Visualization  
+Created visual dashboards using **Matplotlib** and **Seaborn**:
+
+- Line plots: Daily trends of CTR, CPC, and conversions  
+- Scatter plots: Clicks vs. Conversions  
+- Box plots: Platform-wise distribution of KPIs  
+- Time-series: Seasonal patterns and performance variation  
+
+---
+
+## 📌 Key Insights  
+
+### **Platform Performance**
+- **Facebook** showed **higher conversion rates** and **lower CPC** than Google AdWords  
+
+### **Budget Optimization**
+- Facebook proved more cost-effective, suggesting a shift in ad budget toward it  
+
+### **Seasonal Behavior**
+- Conversion rates peaked in Q2 and Q4, highlighting the importance of timing in campaign planning  
+
+---
+
+## 💻 Tools & Technologies Used  
+- **Python**: Core analysis and modeling  
+- **Pandas & NumPy**: Data processing  
+- **Matplotlib & Seaborn**: Visualization  
+- **SciPy**: Statistical testing (t-test, cointegration)  
+- **Scikit-learn**: Regression modeling  
+
+---
+
+## 📎 Outcome  
+This project delivers a **data-driven framework** for comparing ad platforms. It enables:
+
+- Informed **budget allocation decisions**  
+- Better **ROI analysis** for marketing campaigns**  
+- Insights into **seasonal performance trends**  
+
+Ideal for marketing teams and analysts looking to maximize advertising efficiency.
+
+---
+
+## 🚀 Future Scope  
+- Add **time-series forecasting** (ARIMA, Prophet) to predict future conversions  
+- Explore **multi-channel attribution modeling**  
+- Build an **interactive dashboard** using Streamlit or Power BI  
+- Integrate **automated A/B test evaluation**  
+- Apply **advanced ML models** (Random Forest, Gradient Boosting)  
+
+---
+
+## ⭐ Contribute & Support  
+If you found this project helpful:
+
+- ⭐ **Star this repository**  
+- 🐛 Open an issue for bugs or improvements  
+- 🤝 Feel free to submit pull requests  
+
+---
+
